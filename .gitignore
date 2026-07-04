@@ -1,0 +1,8 @@
+__pycache__/
+.env
+venv/
+node_modules/
+dist/
+build/
+*.log
+.vscode/settings.json
