@@ -1,8 +1,38 @@
-__pycache__/
+# Environments & secrets — NEVER commit real values
 .env
+.env.*
+!.env.example
+
+# Python
 venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Frontend (once React is added in Phase 3)
 node_modules/
 dist/
 build/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database dumps / local data — never commit real school data
+*.sql.bak
+*.dump
+/data/
+
+# Logs
 *.log
-.vscode/settings.json
